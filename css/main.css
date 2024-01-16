@@ -78,5 +78,18 @@ img{
 
 /**=======================================================================================**/
 
-.sobre-nosotros{
+.sobre-nosotros {
+    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
+    background-position: center, top left;
+    background-repeat: no-repeat;
+    background-size: 100%, 70rem;
+}
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.texto-nosotros {
+    grid-row: 2 / 3;
+    color: #FFF;
+    padding: 5rem;
 }
