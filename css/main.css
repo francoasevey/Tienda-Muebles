@@ -1,11 +1,22 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
 body{
+    font-size: 1.6rem;
     font-family: 'Raleway', sans-serif;
 }
 h1, h2, h3{
     font-family: 'Playfair Display', sans-serif;
 }
-html{
-    box-sizing: border-box;
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.2rem;
+}
+h3 {
+    font-size: 2.4rem;
 }
 *,*::before, *::after{
     box-sizing: inherit;
@@ -15,13 +26,18 @@ a{
     color: #000;
 }
 .contenedor{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
 }
+img{
+    max-width: 100%;
+    display: block;
+}
 .nombre-sitio{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     text-align: center;
+    font-size: 4rem;
 }
 .nombre-sitio span{
     color: #037bc0;
@@ -30,7 +46,7 @@ a{
     border-top: 1px solid #e1e1e1;
 }
 .nav-principal{
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -38,7 +54,7 @@ a{
     background-image: url("/images/principal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 55rem;
 }
 .categorias h2{
     text-align: center;
@@ -46,25 +62,21 @@ a{
 .categoria a{
     text-align: center;
     display: block;
-    padding: 20px;
-    font-size: 20px;
+    padding: 2rem;
+    font-size: 2rem;
 }
 .categoria a:hover{
     background-color: #037bc0;
     color: #ffffff;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 1rem;
 }
 .listado-categorias{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
 }
-img{
-    max-width: 100%;
-    display: block;
-}
+
 /**=======================================================================================**/
 
 .sobre-nosotros{
-    background-color: red;
 }
